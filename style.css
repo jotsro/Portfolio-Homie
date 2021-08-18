@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap%27);
+@import url(https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap%27);
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap%27);
+
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+html{
+
+    scroll-behavior: smooth;
+    background-color: #5cdb95;
+
+}
+.home{
+display: block;
+}
+
+nav{
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.144);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #05386b;
+
+}
+.logo{
+    padding: 17px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top{
+    font-size: 23px;
+}
+
+li{
+    display: inline-block;
+    padding: 40px;
+    padding-left: 15px;
+
+    font-size: 20px;
+
+}
+li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.content{
+    background-color: #5cdb95;
+    background-image: url("badal.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 80vh;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: #edf5e1;
+}
+h1{
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px #05386b;
+
+
+}
+
+
+p{
+    font-size: 21px;
+color:  #f0fff0;
+font-family: "Atkinson Hyperlegible";
+
+}
+button{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    border-style: none;
+    background-color:#05386b ;
+    color:#00ffcc ;
+    width: 10vw;
+    font-size: 17px;
+}
+button:hover{
+    background-color:#00ffcc  ;
+    color: #05386b;
+}
+.aboutMe{
+    min-height: 100vh;
+    width: 100%;
+}
+.myWork{
+    min-height: 100vh;
+    width: 100%;
+}
+.contact{
+    min-height: 100vh;
+    width: 100%;
+}
+.btns{
+    margin-top: 30px;
+}
+.name{
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.niraj{
+    text-shadow: 2px 2px #05386b85;
+}
+
+.text-okay
+{
+    position: relative;
+    text-align: center;
+    font-weight: 100vh;
+}
